@@ -23,6 +23,13 @@
   font-size: 26px;
 }
 
+.pagination {
+  margin-top: 10px;
+  a, span, em {
+    margin-right: 5px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
