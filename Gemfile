@@ -56,6 +56,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+gem 'simple_form'
+
 gem 'will_paginate', '>= 3.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
