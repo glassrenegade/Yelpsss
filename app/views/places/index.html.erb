@@ -12,6 +12,12 @@
       <small><%= place.user.email %></small>
     <% end %>
 
+    <% if place.photos.present? %>
+      <div class="col-12">
+        <%= image_tag( place.photos.last.picture, class: "col-12" ) %>
+      </div>
+    <% end %>
+
     <% if place.comments.present? %>
       <div class="col-12">
         <blockquote>
